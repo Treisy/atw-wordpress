@@ -25,12 +25,10 @@
 	</head>
 	<body <?php body_class(); ?>>
 
-		<!-- wrapper -->
-		<div class="wrapper">
-
 			<!-- header -->
 			<header class="header clear" role="banner">
 
+				<div class="wrapper">
 					<!-- logo -->
 					<div class="logo">
 						<a href="<?php echo home_url(); ?>">
@@ -46,5 +44,10 @@
 					</nav>
 					<!-- /nav -->
 
+				</div>
+
 			</header>
 			<!-- /header -->
+
+			<!-- wrapper -->
+			<div class="wrapper">
