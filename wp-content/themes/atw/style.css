@@ -37,8 +37,8 @@ html {
 }
 
 body {
-    font: 300 16px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #444;
+    font: 300 16px/1.7 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #000000;
 }
 
 
@@ -86,6 +86,12 @@ input:focus {
     border: 1px solid #04A4CC;
 }
 
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #D4771E;
+}
+
 
 /*------------------------------------*\
     STRUCTURE
@@ -106,6 +112,10 @@ input:focus {
 
 .grid1-3 {
     width: 33.3%;
+}
+
+.grid2-4 {
+    width: 50%;
 }
 
 
@@ -258,6 +268,46 @@ div.foto:nth-child(even) {
     box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
     width: 100%;
     height: auto;
+}
+
+
+/*Tours*/
+
+article.type-tours h2 {
+    margin: 10px 0;
+}
+
+article.type-tours p {
+    margin: 5px 0;
+}
+
+.imagen-destacada {
+    position: relative;
+}
+
+.imagen-destacada .mas-info {
+    position: absolute;
+    right: -13px;
+    top: 19px;
+}
+
+.fecha-precio p.fecha {
+    float: left;
+    width: 50%;
+    margin-left: 5px;
+}
+
+.fecha-precio p.precio {
+    float: right;
+    width: 50%;
+    text-align: right;
+    color: #D4771E;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.fecha-precio {
+    font-size: 14px;
 }
 
 

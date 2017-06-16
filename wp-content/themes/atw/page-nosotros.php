@@ -1,4 +1,8 @@
-<?php get_header(); ?>
+<?php 
+/*
+	Template Name: Nosotros
+ */
+get_header(); ?>
 
 	<main role="main">
 		<!-- section -->
